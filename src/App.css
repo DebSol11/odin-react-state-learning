@@ -1,0 +1,19 @@
+.containerDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerDiv button {
+  display: inline-block;
+  margin-bottom: 2vw;
+}
+
+.containerDiv img {
+  max-width: 15vw;
+}
+
+@media (max-width: 425px) {
+  .containerDiv img {
+    max-width: 100vw;
+  }
+}
