@@ -8,6 +8,7 @@ import FirstOwnComponent from "./FirstOwnComponent.jsx";
 import Accordion from "./SharingState.jsx";
 import SyncedInputs from "./SyncedInputs.jsx";
 import FilterableList from "./FilteringAList.jsx";
+import Person from "./Person.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -17,6 +18,7 @@ createRoot(document.getElementById("root")).render(
     <FirstOwnComponent />
     {/* <Accordion />
     <SyncedInputs /> */}
-    <FilterableList />
+    {/* <FilterableList /> */}
+    <Person />
   </StrictMode>,
 );
